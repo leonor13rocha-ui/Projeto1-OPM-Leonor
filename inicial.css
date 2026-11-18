@@ -1,0 +1,99 @@
+/* PALETA DE CORES: 
+preto mais claro:1E1E24 ou preto: 000000
+vermelho escuro: 540b0e
+bege: FFF8F0 
+houver: dda15eff*/
+
+/* FONTES DE LETRAS:
+font-family: "Quicksand", sans-serif; (letra dos titulos)
+
+h1 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+}
+ 
+font-family: "Quicksand", sans-serif; (letra dos paragrafos)
+
+  .bahiana-regular {
+  font-family: "Bahiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+
+/* Carrosel */
+
+h1 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    width: 400%;
+    size: 28;
+    height: 1;
+}
+
+
+
+h2,
+p {
+    text-align: end;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-right: 5%;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 0;
+}
+
+div img {
+    width: max(30vw, 400px);
+    margin: 0;
+    padding: 0;
+}
+
+#carrossel div {
+    width: max(90vw, 1200px);
+    margin: 0;
+    padding: 0;
+}
+
+#carrossel ul {
+    margin: 0;
+    margin-bottom: 3%;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 4vw;
+
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-color: #540b0e rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    scroll-snap-align: center;
+}

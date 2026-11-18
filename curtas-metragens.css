@@ -1,0 +1,23 @@
+iframe {
+    align-items: center;
+}
+
+h1 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    width: 400%;
+    size: 28;
+    height: 1;
+}
+
+
+h3,
+p footer div p {
+    font-family: "Quicksand", sans-serif;
+    /* font-family: "Bahiana", sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+}

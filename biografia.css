@@ -1,0 +1,52 @@
+h2,
+div p {
+    text-align: left;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-right: 5%;
+}
+
+
+
+
+img {
+    display: inline-block;
+}
+
+#conteudo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+
+
+#conteudo1 img {
+    width: 26vw;
+}
+
+#CV {
+    text-align: center;
+
+}
+
+main {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+
+
+
+@media (orientation: landscape) {
+
+    #side {
+        display: none;
+    }
+
+
+}

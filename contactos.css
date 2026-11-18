@@ -1,0 +1,32 @@
+#contactos {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50%;
+    padding-top: 8.5vh;
+}
+
+#contactos1 img {
+    width: 26vw;
+}
+
+#contactos2 {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+
+main {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-right: 0;
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
